@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import './App.css';
 import TodoList from './todos/TodoList'
 
 const AppContainer = styled.div`

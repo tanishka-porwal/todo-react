@@ -18,6 +18,7 @@ const ListWrapper = styled.div`
 const TodoList = ({ completedTodos, incompleteTodos, onRemovePressed, onCompletedPressed, isLoading, startLoadingTodos }) => {
     useEffect(() => {
         startLoadingTodos();
+        // eslint-disable-next-line
     }, []);
     
     const loadingMessage = <div>Loading todos...</div>;
